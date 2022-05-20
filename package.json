@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build --watch",
-    "preview": "vite preview --port 5050",
+    "preview": "vite preview --port 8080",
     "build-preview": "vue-tsc --noEmit && vite preview && vite build --watch",
     "test:unit": "vitest --environment jsdom",
     "typecheck": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
