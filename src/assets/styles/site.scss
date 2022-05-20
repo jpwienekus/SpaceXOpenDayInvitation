@@ -1,0 +1,21 @@
+body,
+.n-card.n-modal {
+    background-color: $site-background-color;
+}
+
+.n-card.n-modal {
+    border: 1px solid $site-accent-color;
+}
+
+div {
+    color: $site-accent-color;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.n-scrollbar > .n-scrollbar-rail > .n-scrollbar-rail__scrollbar,
+.n-scrollbar > .n-scrollbar-rail > .n-scrollbar-rail__scrollbar:hover {
+    background-color: white;
+}
