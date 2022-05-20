@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vue-tsc --noEmit && vite build --base=/SpaceXOpenDay/",
     "preview": "vite preview --port 8080",
     "build-preview": "vue-tsc --noEmit && vite preview && vite build --watch",
     "test:unit": "vitest --environment jsdom",
