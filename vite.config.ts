@@ -21,5 +21,5 @@ export default defineConfig({
             }
         }
     },
-    base: '/SpaceXOpenDay/'
+    base: '/SpaceXOpenDayInvitation/'
 })
