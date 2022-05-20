@@ -5,6 +5,8 @@ body,
 
 .n-card.n-modal {
     border: 1px solid $site-accent-color;
+    width: 600px;
+    max-width: 60%;
 }
 
 div {
@@ -18,4 +20,39 @@ div {
 .n-scrollbar > .n-scrollbar-rail > .n-scrollbar-rail__scrollbar,
 .n-scrollbar > .n-scrollbar-rail > .n-scrollbar-rail__scrollbar:hover {
     background-color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .side-padding-xs {
+        padding: 0 $offset-xs;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .side-padding-s {
+        padding: 0 $offset-s;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .side-padding-m {
+        padding: 0 $offset-m;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .side-padding-l {
+        padding: 0 $offset-l;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .side-padding-xl {
+        padding: 0 $offset-xl;
+    }
 }

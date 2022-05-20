@@ -1,7 +1,7 @@
 <template>
     <n-layout class="root-layout" embedded position="absolute" content-style="padding: 24px;">
         <page-header></page-header>
-        <div class="container">
+        <div class="side-padding-xs side-padding-s side-padding-m side-padding-l side-padding-xl">
             <router-view />
         </div>
     </n-layout>
@@ -19,7 +19,6 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-.container {
-    padding: 0 $offset;
-}
+
+
 </style>

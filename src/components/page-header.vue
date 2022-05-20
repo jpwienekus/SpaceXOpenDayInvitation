@@ -1,5 +1,5 @@
 <template>
-    <n-page-header>
+    <n-page-header class="side-padding-xs side-padding-s side-padding-m side-padding-l side-padding-xl">
         <template #title>
             <a href="#">
                 <img src="../assets/logo.png" width="200">
@@ -22,9 +22,3 @@ export default defineComponent({
     }
 })
 </script>
-
-<style lang="scss">
-.n-page-header{
-    margin: 0 $offset;
-}
-</style>

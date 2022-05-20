@@ -1,6 +1,6 @@
 <template>
     <n-modal v-model:show="shouldShow" :title="launchInformation.missionName" class="custom-card" preset="card"
-        :style="bodyStyle" :bordered="false" size="medium" :segmented="segmented">
+        :bordered="false" size="medium" :segmented="segmented">
         <launch-image-carousel v-if="hasImages" :launch-images="launchInformation.images" :description="description"></launch-image-carousel>
         <p v-else>There are no images available for this launch.</p>
 
@@ -74,9 +74,6 @@ export default defineComponent({
         });
 
         return {
-            bodyStyle: {
-                width: '600px'
-            },
             segmented: {
                 content: 'soft',
                 footer: 'soft'
